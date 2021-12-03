@@ -22,7 +22,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const pages = ["¿Quiénes Somos?", "¿Qué Hacemos?", "Dona", "Contacto"];
 const pagesObj = [
-  { text: "¿Quiénes Somos?", url: "/quines-somos" },
+  { text: "¿Quiénes Somos?", url: "/quienes-somos" },
   { text: "¿Qué Hacemos?", url: "/que-hacemos" },
   { text: "Dona", url: "/dona" },
   { text: "Contacto", url: "/contacto" },

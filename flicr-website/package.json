@@ -1,5 +1,5 @@
 {
-  "homepage": "http://localhost/Public/FundacionLeer",
+
   "name": "flicr-website",
   "private": true,
   "scripts": {
@@ -24,6 +24,7 @@
     "next-optimized-images": "^2.6.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-loader-spinner": "^4.0.0",
     "react-responsive-carousel": "^3.2.22",
     "sass": "^1.44.0",
     "styled-components": "^5.3.3",
