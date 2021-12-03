@@ -12,7 +12,7 @@ const SiteFooter = () => (
     <div id="graybar" style={{ backgroundColor: "#333" }}>
       <Grid container spacing={2} style={{ maxWidth: 1200, margin: "auto" }}>
         <Grid item xs={12} md={4} lg={4}>
-          <img src="/images/LogoTransparent.png" style={{ width: 250 }}></img>
+          <img src="/images/logoTransparent.png" style={{ width: 250 }}></img>
           <br></br>
           <p>
             Somos una organización sin fines de lucro dedicada a promover la

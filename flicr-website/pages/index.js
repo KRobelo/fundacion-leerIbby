@@ -20,10 +20,14 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: "center",
   color: theme.palette.text.secondary,
 }));
+
 export default function Home() {
+
+
   return (
     <div>
-      <Box sx={{ flexGrow: 1 }}>
+    
+      <Box  sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           <Grid item xs={12} style={{ margin: "auto" }}>
             <Card
@@ -41,7 +45,7 @@ export default function Home() {
                 alt="green iguana"
               />
               */ }
-              
+       
               <CompCarousel/>
             </Card>
           </Grid>

@@ -8,6 +8,8 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
       <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"/>
@@ -25,8 +27,7 @@ export default function Layout({ children }) {
 <meta name="msapplication-TileColor" content="#ffffff"/>
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
 <meta name="theme-color" content="#ffffff"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <link
+     <link
   rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
 />
