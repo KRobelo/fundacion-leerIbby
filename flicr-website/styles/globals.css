@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/assets/BebasNeue-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Cabin";
+    src: url("/assets/Cabin-Regular.ttf");
+    }
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'BebasNeue';
+}
+p{
+  font-family: 'Cabin';
+  text-align: justify;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cabin';
+  
+text-transform: uppercase;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+span{
+  font-family: 'Cabin';
+}
+* {
+  box-sizing: border-box;
+}
