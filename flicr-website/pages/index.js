@@ -10,6 +10,9 @@ import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import SiteLogoLine from "../components/SiteLogoLine/SiteLogoLine";
+import CompCarousel from "../components/CompCarousel/CompCarousel";
+
+
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -30,12 +33,16 @@ export default function Home() {
                 textAlign: "center",
               }}
             >
+              {/* 
               <CardMedia
                 component="img"
                 //height="500"
                 image={`/images/Ilustracion.png`}
                 alt="green iguana"
               />
+              */ }
+              
+              <CompCarousel/>
             </Card>
           </Grid>
         </Grid>
@@ -53,12 +60,12 @@ export default function Home() {
             }}
             item
             xs={12}
-            md={12}
+            md={6}
             lg={6}
           >
             <img src="/images/quehacemos.png" className={styles['round-image']} ></img>
           </Grid>
-          <Grid item xs={12} md={12} lg={6}>
+          <Grid item xs={12} md={6} lg={6}>
             <br></br>
             <br></br>
             <br></br>
@@ -91,7 +98,7 @@ export default function Home() {
         <br />
 
         <Grid className={styles["bg-row"]} container spacing={0}>
-          <Grid item xs={12} md={12} lg={6}>
+          <Grid item xs={12} md={6} lg={6}>
             <br></br>
             <br></br>
             <br></br>
@@ -121,7 +128,7 @@ export default function Home() {
           <Grid
             item
             xs={12}
-            md={12}
+            md={6}
             lg={6}
             style={{
               margin: "auto",
@@ -149,7 +156,7 @@ export default function Home() {
         <br />
 
         <div id="graybar" className={styles["bg-row-small"]}>
-          Mas de 250 Centros Educativos Púbilcos y Privados Beneficiados alrededor del país.
+     <h3>Mas de 250 Centros Educativos Púbilcos y Privados Beneficiados alrededor del país.</h3>
         </div>
 
 
