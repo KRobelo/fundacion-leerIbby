@@ -22,10 +22,12 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const pages = ["¿Quiénes Somos?", "¿Qué Hacemos?", "Dona", "Contacto"];
 const pagesObj = [
+  { text: "Inicio", url: "/" },
   { text: "¿Quiénes Somos?", url: "/quienes-somos" },
   { text: "¿Qué Hacemos?", url: "/que-hacemos" },
   { text: "Dona", url: "/dona" },
   { text: "Contacto", url: "/contacto" },
+  { text: "Proyectos", url: "/proyectos" },
 ];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 

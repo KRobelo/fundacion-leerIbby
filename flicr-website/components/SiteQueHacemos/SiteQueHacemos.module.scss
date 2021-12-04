@@ -1,8 +1,15 @@
 .SiteQueHacemos {
+    li { 
+      font: 'Cabin';
+      list-style-image: url('../../public/images/pencil.png'); 
+      padding: 16px;
+    } 
     .container {
         padding: 0 2rem;
       }
-      
+      h1{
+        color:#009bdb
+      }
       .main {
         min-height: 100vh;
         padding: 4rem 0;
@@ -12,7 +19,7 @@
         justify-content: center;
         align-items: center;
       }
-      .bg-row {
+      .bg-row-que-hacemos {
         padding: 0px;
         background-size: 200px 360px;
         background-image: url("/images/bg-row.png");
@@ -37,13 +44,13 @@
         margin: 20px 40px;
       
       }
-      .gray-bar {
+      .gray-bar-que-hacemos {
         text-align: center;
         padding: 20px;
         margin: 0px 0px;
         align-items: space-between;
-        background-color: #94a7ad;
-        color: white;
+        background-color: #fff;
+        color: #3b3b3b;
       }
       .proyectos-bar {
         text-align: center;

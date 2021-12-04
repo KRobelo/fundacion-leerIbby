@@ -1,0 +1,99 @@
+
+.Home {
+ 
+.bg-row {
+  padding: 0px;
+  background-size: 200px 360px;
+  background-image: url("/images/bg-row.png");
+  background-repeat: repeat-x;
+  background-position: center;
+}
+.bg-row-small {
+  height: 60px;
+font-family: 'Cabin', sans-serif;
+
+text-transform: uppercase;
+  padding: 1px;
+  background-size: 200px 60px;
+  text-align: center;
+  color: white;
+  background-image: url("/images/bg-row.png");
+  background-repeat: repeat-x;
+  background-position: center;
+}
+.img-circle {
+  width: 140px;
+  margin: 20px 40px;
+
+}
+.gray-bar {
+  text-align: center;
+  padding: 20px;
+  margin: 0px 0px;
+  align-items: space-between;
+  background-color: #94a7ad;
+  color: white;
+}
+.proyectos-bar {
+  text-align: center;
+  padding: 20px;
+  margin: 0px 0px;
+
+  background-image: url("/images/bg-proyectos.png");
+  background-repeat: repeat-x;
+  background-size: 220px 380px;
+  background-position: center;
+}  
+ 
+}
+.Home p {
+color:white;
+}
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .round-image{
+    width: 320px;
+  }
+  .round-image-proyectos{
+    width: 323px
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .round-image{
+    width: 320px;
+  }
+  .round-image-proyectos{
+    width: 323px
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .round-image{
+    width: 320px;
+  }
+  .round-image-proyectos{
+    width: 493px
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .round-image{
+    width: 480px;
+  }
+  .round-image-proyectos{
+    width: 620px
+  }
+}
+ 
