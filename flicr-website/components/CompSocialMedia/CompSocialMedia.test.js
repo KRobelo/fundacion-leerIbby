@@ -8,8 +8,8 @@ describe('<CompSocialMedia />', () => {
 
   test('it should mount', () => {
     const { getByTestId } = render(<CompSocialMedia />);
-    const CompSocialMedia = getByTestId('CompSocialMedia');
+    const compSocialMedia = getByTestId('CompSocialMedia');
 
-    expect(CompSocialMedia).toBeInTheDocument();
+    expect(compSocialMedia).toBeInTheDocument();
   });
 });
