@@ -26,8 +26,8 @@ const pagesObj = [
   { text: "¿Quiénes Somos?", url: "/quienes-somos" },
   { text: "¿Qué Hacemos?", url: "/que-hacemos" },
   { text: "Dona", url: "/dona" },
-  { text: "Contacto", url: "/contacto" },
-  { text: "Proyectos", url: "/proyectos" },
+  { text: "Contacto", url: "/contacto"},
+  { text: "Proyectos", url: "/proyectos"},
 ];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
