@@ -1,12 +1,9 @@
-import Head from 'next/head' 
- 
-import SiteProyectos from '../components/SiteProyectos/SiteProyectos'
+import SiteProyectos from "../components/SiteProyectos/SiteProyectos";
 
-export default function Home() {
+export default function Proyectos() {
   return (
-    <div >
-    
-<SiteProyectos/>
+    <div>
+      <SiteProyectos />
     </div>
-  )
+  );
 }

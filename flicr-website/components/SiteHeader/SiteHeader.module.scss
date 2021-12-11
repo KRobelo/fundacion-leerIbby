@@ -65,6 +65,12 @@
         background-color:#94a7ad;
         color:white
     }
+    .social-media-icons-desktop{
+        color:white;
+        transform: scale(1.4);
+        margin: 10px 16px 0px 8px;
+        display: none;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -78,6 +84,12 @@
         background-color:#94a7ad;
         color:white
     }
+    .social-media-icons-desktop{
+        color:white;
+        transform: scale(1.2);
+        margin: 10px 16px 0px 8px;
+        display: inline-flex;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -90,6 +102,12 @@
         margin: 0px 0px;
         background-color:#94a7ad;
         color:white
+    }
+    .social-media-icons-desktop{
+        color:white;
+        transform: scale(1.4);
+        margin: 10px 16px 0px 8px;
+        display: inline-flex;
     }
 }
 
@@ -110,14 +128,6 @@
         margin: 10px 16px 0px 8px;
         display: inline-flex;
     }
-    .social-media-icons-mobile{
-        color:$blueColor;
-        margin: auto;
-        text-align: center;
-        transform: scale(2.2);
-        margin: 28px ;
-       // display: inline-flex; 
-
-    } 
+ 
 }
 }

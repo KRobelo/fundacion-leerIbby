@@ -217,6 +217,7 @@ const SiteHeader = () => {
 
       <div id="graybar" className={styles["gray-bar-header"]}>
         <LocationOnIcon /> <span> Cartago, Costa Rica </span>
+        &nbsp;&nbsp; &nbsp;&nbsp;
         <a
           style={{ display: "inline-block" }}
           href="mailto:fundacionleercostarica@gmail.com"
@@ -225,7 +226,8 @@ const SiteHeader = () => {
           rel="noreferrer"
         >
           <EmailIcon /> <span>fundacionleercostarica@gmail.com </span>
-        </a>
+        </a>{" "}
+        &nbsp;&nbsp; &nbsp;&nbsp;
         <a
           href="https://api.whatsapp.com/send?phone=50683126746"
           target="_blank"

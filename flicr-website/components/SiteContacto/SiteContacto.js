@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./SiteContacto.module.scss";
 import sendMail from "../../helpers/sendMail";
+import CompSubHeader from "../../components/CompSubHeader/CompSubHeader";
 
 import Grid from "@mui/material/Grid";
 const SiteContacto = () => {
@@ -10,19 +11,8 @@ const SiteContacto = () => {
   };
   return (
     <div className={styles.SiteContacto} data-testid="SiteContacto">
-      <div
-        className={styles["bg-row-que-hacemos-small"]}
-        style={{
-          margin: "auto",
-          textAlign: "center",
-        }}
-      >
-        <img
-          src="/images/quehacemos.png"
-          className={styles["round-image-small"]}
-        ></img>
-      </div>
-      <br /> <br /> <br />
+      <CompSubHeader />
+
       <h1 style={{ margin: "auto", textAlign: "center" }}>
         {" "}
         Fundación Leer/IBBY Costa Rica

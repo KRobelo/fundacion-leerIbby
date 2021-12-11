@@ -1,12 +1,9 @@
-import Head from 'next/head' 
+import SiteQueHacemos from "../components/SiteQueHacemos/SiteQueHacemos";
 
-import SiteQueHacemos from '../components/SiteQueHacemos/SiteQueHacemos'
-
-export default function Home() {
+export default function QueHacemos() {
   return (
-    <div >
-    
-<SiteQueHacemos/>
+    <div>
+      <SiteQueHacemos />
     </div>
-  )
+  );
 }

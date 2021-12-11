@@ -1,12 +1,9 @@
-import Head from 'next/head' 
- 
-import SiteContacto from '../components/SiteContacto/SiteContacto'
+import SiteContacto from "../components/SiteContacto/SiteContacto";
 
-export default function Home() {
+export default function Contacto() {
   return (
-    <div  >
-    
-<SiteContacto/>
+    <div>
+      <SiteContacto />
     </div>
-  )
+  );
 }

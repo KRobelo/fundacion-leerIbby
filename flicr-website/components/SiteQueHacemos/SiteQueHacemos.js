@@ -1,42 +1,13 @@
-import Head from "next/head";
 import styles from "./SiteQueHacemos.module.scss";
 import * as React from "react";
-import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
-import Grid from "@mui/material/Grid";
-import Card from "@mui/material/Card";
-
-import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
-import SiteLogoLine from "../SiteLogoLine/SiteLogoLine";
-import CompCarousel from "../CompCarousel/CompCarousel";
-
-const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-}));
+import CompSubHeader from "../CompSubHeader/CompSubHeader";
 
 export default function SiteQueHacemos() {
   return (
     <div className={styles.SiteQueHacemos}>
-      <div
-        className={styles["bg-row-que-hacemos-small"]}
-        style={{
-          margin: "auto",
-          textAlign: "center",
-        }}
-      >
-        <img
-          src="/images/quehacemos.png"
-          className={styles["round-image-small"]}
-        ></img>
-      </div>
-      <br />
-      <br /> <br />
-      <br />
+      <CompSubHeader />
+
       <Box sx={{ flexGrow: 1 }}>
         <div
           style={{

@@ -1,0 +1,130 @@
+ 
+@import "../../styles/Globals.module.scss";
+.CompSubHeader {
+    b{
+        color: #009bdb;
+    }
+    p{
+        color:#333;
+    }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .round-image {
+      width: 320px;
+    }
+    .round-image-proyectos {
+      width: 323px;
+    }
+    .round-image-small {
+      width: 120px;
+      margin-top: -15px;
+      opacity: 1 !important;
+    }
+ 
+    .bg-row-small {
+      padding: 0px;
+      height: 80px;
+      background-size: 10px 10px;
+      background-color: rgb(0, 155, 219, 0.8);
+      //opacity: 0.2;
+
+      background-position: bottom;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .round-image {
+      width: 320px;
+    }
+    .round-image-proyectos {
+      width: 323px;
+    }
+    .round-image-small {
+      width: 120px;
+      margin-top: -15px;
+      opacity: 1 !important;
+    }
+ 
+    .bg-row-small {
+      padding: 0px;
+      height: 80px;
+      background-size: 10px 10px;
+      background-color: rgb(0, 155, 219, 0.8);
+      //opacity: 0.2;
+
+      background-position: bottom;
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .round-image {
+      width: 320px;
+    }
+    .round-image-proyectos {
+      width: 493px;
+    }
+    .round-image-small {
+        width: 110px;
+        margin-top: -15px;
+        opacity: 1 !important;
+      }
+   
+      .bg-row-small {
+        padding: 0px;
+        height: 80px;
+        background-size: 10px 10px;
+        background-color: rgb(0, 155, 219, 0.8);
+        //opacity: 0.2;
+  
+        background-position: bottom;
+      }
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .round-image {
+      width: 480px;
+    }
+ 
+    .round-image-proyectos {
+      width: 620px;
+    }
+ 
+    .round-image-small {
+        width: 108px;
+        margin-top: 6px;
+        opacity: 1 !important;
+      }
+   
+      .bg-row-small {
+        padding: 0px;
+        height: 80px;
+        background-size: 10px 10px;
+        background-color: rgb(0, 155, 219, 0.8);
+        //opacity: 0.2;
+  
+        background-position: bottom;
+      }
+  }
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .round-image-small {
+        width: 130px;
+        margin-top: -18px;
+        opacity: 1 !important;
+      }
+   
+      .bg-row-small {
+        padding: 0px;
+        height: 80px;
+        background-size: 10px 10px;
+        background-color: rgb(0, 155, 219, 0.8);
+        //opacity: 0.2;
+  
+        background-position: bottom;
+      }
+  }
+}

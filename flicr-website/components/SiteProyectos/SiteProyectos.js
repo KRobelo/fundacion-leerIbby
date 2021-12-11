@@ -1,26 +1,16 @@
 import React from "react";
-import PropTypes from "prop-types";
 import styles from "./SiteProyectos.module.scss";
 import SiteLogoLine from "../SiteLogoLine/SiteLogoLine";
 import Grid from "@mui/material/Grid";
+import CompSubHeader from "../../components/CompSubHeader/CompSubHeader";
+
 const SiteProyectos = () => (
   <div
     className={styles.SiteProyectos}
     style={{ margin: "auto" }}
     data-testid="SiteProyectos"
   >
-    <div
-      className={styles["bg-row-que-hacemos-small"]}
-      style={{
-        margin: "auto",
-        textAlign: "center",
-      }}
-    >
-      <img
-        src="/images/quehacemos.png"
-        className={styles["round-image-small"]}
-      ></img>
-    </div>
+    <CompSubHeader />
     <br />
     <br />
     <Grid className={styles["grid-proyectos"]} container spacing={0}>

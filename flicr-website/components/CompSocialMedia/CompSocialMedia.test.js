@@ -1,15 +1,15 @@
-import React from 'react';
-import { cleanup, render } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
-import CompSocialMedia from './CompSocialMedia';
+import React from "react";
+import { cleanup, render } from "@testing-library/react";
+import "@testing-library/jest-dom/extend-expect";
+import CompSocialMedia from "./CompSocialMedia";
 
-describe('<CompSocialMedia />', () => {
+describe("<CompSocialMedia />", () => {
   afterEach(cleanup);
 
-  test('it should mount', () => {
+  test("it should mount", () => {
     const { getByTestId } = render(<CompSocialMedia />);
-    const CompSocialMedia = getByTestId('CompSocialMedia');
+    const compSocialMedia = getByTestId("CompSocialMedia");
 
-    expect(CompSocialMedia).toBeInTheDocument();
+    expect(compSocialMedia).toBeInTheDocument();
   });
 });

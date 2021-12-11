@@ -1,39 +1,13 @@
-import Head from "next/head";
 import styles from "./SiteQuienesSomos.module.scss";
 import * as React from "react";
-import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-import Card from "@mui/material/Card";
-
-import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
-import SiteLogoLine from "../SiteLogoLine/SiteLogoLine";
-import CompCarousel from "../CompCarousel/CompCarousel";
-
-const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-}));
+import CompSubHeader from "../CompSubHeader/CompSubHeader";
 
 export default function SiteQuienesSomos() {
   return (
     <div className={styles.SiteQuienesSomos}>
-      <div
-        className={styles["bg-row-que-hacemos-small"]}
-        style={{
-          margin: "auto",
-          textAlign: "center",
-        }}
-      >
-        <img
-          src="/images/quehacemos.png"
-          className={styles["round-image-small"]}
-        ></img>
-      </div>
+      <CompSubHeader />
       <br />
       <br />
       <Box sx={{ flexGrow: 1 }}>
@@ -174,23 +148,38 @@ export default function SiteQuienesSomos() {
             <p>
               <h3>Solidaridad </h3>
               Construimos un enfoque de desarrollo basado en Derechos Humanos,
-              orientado a su cumplimiento y a erradicar la desigualdad.
+              orientado a su cumplimiento y a erradicar la desigualdad.{" "}
+            </p>
+            <p>
+              {" "}
               <h3>Compomiso</h3>
               Actuamos comprometidos en el cumplimiento de nuestra misión y
-              visión y con la integridad
+              visión y con la integridad{" "}
+            </p>
+            <p>
+              {" "}
               <h3>Excelencia</h3>
               Aseguramos la consecución de nuestros objetivos y buscamos el
               mayor impacto de nuestras actuaciones a través de la calidad, la
               mejora continua y la optimización de nuestras capacidades y
-              recursos.
+              recursos.{" "}
+            </p>
+            <p>
+              {" "}
               <h3>Participacion</h3>
               Fomentamos los principios democráticos y participativos como
               medios necesarios para la transformación social y como fin
-              inherente al desarrollo
+              inherente al desarrollo{" "}
+            </p>
+            <p>
+              {" "}
               <h3>Transparencia</h3>
               Basamos nuestra labor en la honestidad, la mutua responsabilidad y
               el máximo acceso a la información, como pilares de una rendición
-              de cuentas social y económica.
+              de cuentas social y económica.{" "}
+            </p>
+            <p>
+              {" "}
               <h3>Unidad</h3>
               Creemos en el trabajo en equipo y en la colaboración con otras
               organizaciones e instituciones para potenciar sinergias y mejorar
