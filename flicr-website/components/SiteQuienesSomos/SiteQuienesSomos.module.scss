@@ -77,6 +77,21 @@
       .round-image-proyectos{
         width: 323px
       }
+      .round-image-small {
+        width: 120px;
+        margin-top: -15px;
+        opacity: 1 !important;
+      }
+   
+      .bg-row-que-hacemos-small {
+        padding: 0px;
+        height: 80px;
+        background-size: 10px 10px;
+        background-color: rgb(0, 155, 219, 0.8);
+        //opacity: 0.2;
+  
+        background-position: bottom;
+      }
     }
     
     /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -107,5 +122,23 @@
       .round-image-proyectos{
         width: 620px
       }
+      .round-image-small {
+        width: 180px;
+        margin-top: -35px;
+        opacity: 1 !important;
+      }
+   
+      .bg-row-que-hacemos-small {
+        padding: 0px;
+        height: 80px;
+        background-size: 10px 10px;
+        background-color: rgb(0, 155, 219, 0.8);
+        //opacity: 0.2;
+  
+        background-position: bottom;
+      }
     }
      
+
+
+    

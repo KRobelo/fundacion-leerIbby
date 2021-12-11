@@ -1,10 +1,10 @@
+@import '../../styles/Globals.module.scss';
 .SiteHeader {
  
  span{
      margin-bottom: 2px;
  }
-   
-}
+ 
 .menu-row{
     padding-top: 18px;
 
@@ -17,13 +17,107 @@
     background-image: url("/images/logoCorner.png"),url("/images/logoCornerLine.png");
     background-repeat: no-repeat, repeat-x;
 }
-.gray-bar-header{
-    text-align: right;
-    align-items: space-between;
-    height:48px;
-    padding:10px 60px;
-    margin: 0px 0px;
-    background-color:#94a7ad;
-    color:white
+
+
+   /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .gray-bar-header{
+        text-align: center;
+        align-items: space-between;
+        height:78px;
+        padding:10px 2px;
+        margin: 0px 0px;
+        background-color:#94a7ad;
+        color:white
+       
+    }
+    .social-media-icons-desktop{
+        color:white;
+        transform: scale(1.4);
+        margin: 20px 16px 0px 8px;
+        display: none;
+    }
+    .social-media-icons-mobile{
+        color:$blueColor;
+        margin: auto;
+        text-align: center;
+        transform: scale(2.2);
+        margin: 28px ;
+       // display: inline-flex; 
+
+    } 
+    span{
+        font-size: 13px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .gray-bar-header{
+        text-align: right;
+        align-items: space-between;
+        height:48px;
+        padding:10px 60px;
+        margin: 0px 0px;
+        background-color:#94a7ad;
+        color:white
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .gray-bar-header{
+        text-align: right;
+        align-items: space-between;
+        height:48px;
+        padding:10px 60px;
+        margin: 0px 0px;
+        background-color:#94a7ad;
+        color:white
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .gray-bar-header{
+        text-align: right;
+        align-items: space-between;
+        height:48px;
+        padding:10px 60px;
+        margin: 0px 0px;
+        background-color:#94a7ad;
+        color:white
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .gray-bar-header{
+        text-align: right;
+        align-items: space-between;
+        height:48px;
+        padding:10px 60px;
+        margin: 0px 0px;
+        background-color:#94a7ad;
+        color:white
+    }
+    .social-media-icons-desktop{
+        color:white;
+        transform: scale(1.4);
+        margin: 10px 16px 0px 8px;
+        display: inline-flex;
+    }
+    .social-media-icons-mobile{
+        color:$blueColor;
+        margin: auto;
+        text-align: center;
+        transform: scale(2.2);
+        margin: 28px ;
+       // display: inline-flex; 
+
+    } 
+}
+}

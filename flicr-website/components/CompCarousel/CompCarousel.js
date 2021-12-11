@@ -11,7 +11,14 @@ const CompCarousel = (props) =>{
 
  return  (
     <div className={stylesLocal.CompCarousel} data-testid="CompCarousel">
-      <Carousel autoPlay={true} infiniteLoop={true}>
+      <Carousel 
+      showThumbs={false} 
+      transitionTime={2500} 
+      interval={6000} 
+      showIndicators={false} 
+      showArrows={false} 
+      autoPlay={true} 
+      infiniteLoop={true}>
                   <div>
                       <img src="/images/Ilustracion.png" />
                       <p className="legend">Fundación Leer/IBBY Costa Rica</p>

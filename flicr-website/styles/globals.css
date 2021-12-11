@@ -1,26 +1,24 @@
 @font-face {
   font-family: "BebasNeue";
   src: url("/assets/BebasNeue-Regular.ttf");
-  }
-  @font-face {
-    font-family: "Cabin";
-    src: url("/assets/Cabin-Regular.ttf");
-    }
+}
+@font-face {
+  font-family: "Cabin";
+  src: url("/assets/Cabin-Regular.ttf");
+}
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Cabin';
-  
+  font-family: "Cabin";
 }
-p{
-  font-family: 'Cabin';
-  text-align: justify;
-  font-size: 16px;
-  color: #666;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cabin';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cabin";
   color: #009bdb;
   text-transform: uppercase;
 }
@@ -28,9 +26,63 @@ a {
   color: inherit;
   text-decoration: none;
 }
-span{
-  font-family: 'Cabin';
+span {
+  font-family: "Cabin";
 }
 * {
   box-sizing: border-box;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  p {
+    font-family: "Cabin";
+    text-align: justify;
+    font-size: 16px;
+   color: #c0bebe;
+    padding: 8px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  p {
+    font-family: "Cabin";
+    text-align: justify;
+    font-size: 16px;
+   color: #c0bebe;
+    padding: 8px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  p {
+    font-family: "Cabin";
+    text-align: justify;
+    font-size: 16px;
+   color: #c0bebe;
+    padding: 8px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  p {
+    font-family: "Cabin";
+    text-align: justify;
+    font-size: 16px;
+   color: #c0bebe;
+    padding: 8px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  p {
+    font-family: "Cabin";
+    text-align: justify;
+    font-size: 16px;
+   color: #c0bebe;
+    padding: 8px;
+  }
 }

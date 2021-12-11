@@ -1,0 +1,104 @@
+@import '../../styles/Globals.module.scss';
+.CompSocialMedia {
+ 
+ 
+
+
+   /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ 
+    .social-media-icons-desktop{
+        color:white;
+        transform: scale(1.4);
+        margin: 20px 16px 0px 8px;
+        display: none;
+    }
+    .social-media-icons-mobile{
+        color:$blueColor;
+        margin: auto;
+        text-align: center;
+        transform: scale(2.2);
+        margin: 28px ;
+       // display: inline-flex; 
+
+    } 
+    
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .social-media-icons-desktop{
+    color:white;
+    transform: scale(1.4);
+    margin: 20px 16px 0px 8px;
+    display: none;
+}
+.social-media-icons-mobile{
+    color:$blueColor;
+    margin: auto;
+    text-align: center;
+    transform: scale(2.2);
+    margin: 28px ;
+   // display: inline-flex; 
+
+} 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .social-media-icons-desktop{
+    color:white;
+    transform: scale(1.4);
+    margin: 20px 16px 0px 8px;
+    display: none;
+}
+.social-media-icons-mobile{
+    color:$blueColor;
+    margin: auto;
+    text-align: center;
+    transform: scale(2.2);
+    margin: 28px ;
+   // display: inline-flex; 
+
+} 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .social-media-icons-desktop{
+    color:white;
+    transform: scale(1.4);
+    margin: 20px 16px 0px 8px;
+    display: none;
+}
+.social-media-icons-mobile{
+    color:$blueColor;
+    margin: auto;
+    text-align: center;
+    transform: scale(2.2);
+    margin: 28px ;
+   // display: inline-flex; 
+
+} 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .social-media-icons-desktop{
+    color:white;
+    transform: scale(1.4);
+    margin: 20px 16px 0px 8px;
+    display: flex;
+}
+.social-media-icons-mobile{
+    color:$blueColor;
+    margin: auto;
+    text-align: center;
+    transform: scale(2.2);
+    margin: 28px ;
+    display: none;
+   // display: inline-flex; 
+} 
+}
+}

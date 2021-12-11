@@ -11,15 +11,17 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import SiteLogoLine from "../SiteLogoLine/SiteLogoLine";
 import CompCarousel from "../CompCarousel/CompCarousel";
-
+import { getToolbarUtilityClass } from "@mui/material";
+import { useRouter } from 'next/router'
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: "center",
   color: theme.palette.text.secondary,
 }));
-
 export default function SiteMain() {
+  
+const router = useRouter();
   return (
     <div className={styles.SiteMain}>
       <Box sx={{ flexGrow: 1 }}>
@@ -45,11 +47,10 @@ export default function SiteMain() {
             </Card>
           </Grid>
         </Grid>
-        <br />
-        <br />
+   
         <SiteLogoLine />
         <br />
-        <br />
+ 
 
         <div  className={styles["bg-row"]}>
         <Grid style={{maxWidth:1200, margin:'auto'}} container spacing={0}  >
@@ -68,17 +69,10 @@ export default function SiteMain() {
               className={styles["round-image"]}
             ></img>
           </Grid>
-          <Grid item xs={12} md={6} lg={6}>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+          <Grid item xs={12} md={6} lg={6} sc>
+    
             <div
-              style={{
-                maxWidth: 475,
-                margin: "0px auto",
-                color: "white",
-              }}
+             className={styles['grid-home']}
             >
               <h1 style={{ color: "white" }}>¿Quiénes Somos?</h1>
               <p className={styles["position-p"]}>
@@ -96,25 +90,14 @@ export default function SiteMain() {
           </Grid>
           </Grid>
           </div>
-        <br />
-        <br />
-
-        <br />
+      
 
         <div  className={styles["bg-row"]}>
         <Grid style={{maxWidth:1200, margin:'auto'}} container spacing={0}  >
           <Grid item xs={12} md={6} lg={6}>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-
+           
             <div
-              style={{
-                maxWidth: 475,
-                margin: "0px auto",
-                color: "white",
-              }}
+                   className={styles['grid-home']}
             >
               <h1 style={{ color: "white" }}>¿Qué Hacemos?</h1>
               <p>
@@ -148,9 +131,9 @@ export default function SiteMain() {
         </Grid>
 </div>
         <div id="graybar" className={styles["gray-bar"]}>
-          <img src="images/mision.png" className={styles["img-circle"]}></img>
-          <img src="images/vision.png" className={styles["img-circle"]}></img>
-          <img src="images/valores.png" className={styles["img-circle"]}></img>
+          <img src="images/mision.png" onClick={e=>router.push("/quienes-somos")} className={styles["img-circle"]}></img>
+          <img src="images/vision.png" onClick={e=>router.push("/quienes-somos")} className={styles["img-circle"]}></img>
+          <img src="images/valores.png" onClick={e=>router.push("/quienes-somos")} className={styles["img-circle"]}></img>
         </div>
         <br />
 
@@ -167,6 +150,7 @@ export default function SiteMain() {
             margin: "auto",
             textAlign: "center",
           }}
+          onClick={e=>router.push("/proyectoss")} 
         >
           <img
             style={{ margin: "auto" }}
@@ -177,7 +161,7 @@ export default function SiteMain() {
       </Box>
 
       <br></br>
-      <br></br>
+ 
     </div>
   );
 }

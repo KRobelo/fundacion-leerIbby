@@ -22,6 +22,21 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function SiteQueHacemos() {
   return (
     <div className={styles.SiteQueHacemos}>
+      <div
+        className={styles["bg-row-que-hacemos-small"]}
+        style={{
+          margin: "auto",
+          textAlign: "center",
+        }}
+      >
+        <img
+          src="/images/quehacemos.png"
+          className={styles["round-image-small"]}
+        ></img>
+      </div>
+      <br />
+      <br /> <br />
+      <br />
       <Box sx={{ flexGrow: 1 }}>
         <div
           style={{
@@ -30,7 +45,7 @@ export default function SiteQueHacemos() {
             color: "#222",
           }}
         >
-          <h1 style={{textAlign: 'center'}}>¿Qué Hacemos?</h1>
+          <h1 style={{ textAlign: "center" }}>¿Qué Hacemos?</h1>
           <p>
             La Fundación Leer/IBBY Costa Rica es una organización dedicada a la
             creación de comunidades lectoras a través de mediadores capacitados
@@ -43,7 +58,6 @@ export default function SiteQueHacemos() {
             participen en la construcción de una sociedad más justa.
           </p>
           <br></br>
-       
 
           <ul>
             <li>
@@ -80,7 +94,6 @@ export default function SiteQueHacemos() {
           className={styles["round-image"]}
         ></img>
       </div>
-
       <br></br>
       <br></br>
     </div>

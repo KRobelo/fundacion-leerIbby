@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./SiteFooter.module.scss";
 import SiteLogoLine from "../SiteLogoLine/SiteLogoLine";
+import CompSocialMedia from "../CompSocialMedia/CompSocialMedia";
 import Grid from "@mui/material/Grid";
 const SiteFooter = () => (
   <div
@@ -10,11 +11,11 @@ const SiteFooter = () => (
     data-testid="SiteFooter"
   >
     <div id="graybar" style={{ backgroundColor: "#333" }}>
-      <Grid container spacing={2} style={{ maxWidth: 1280, margin: "auto" }}>
+      <Grid container className={styles['grid']}  >
         <Grid item xs={12} md={4} lg={4}>
-          <img src="/images/logoTransparent.png" style={{ width: 250 }}></img>
+          <img src="/images/logoTransparent.png" style={{ maxWidth: 250 }}></img>
           <br></br>
-          <p>
+          <p style={{padding:4}}>
             Somos una organización sin fines de lucro dedicada a promover la
             lectura en niños y jóvenes mediante diversas actividades sociales.
             Les Invitamos a formar parte de nuestra comunidad participando y
@@ -22,9 +23,10 @@ const SiteFooter = () => (
           </p>
         </Grid>
         <Grid item xs={12} md={4} lg={4}>
-          <p>
-            Contacto :<br/>
-            Apartado postal: Asociación Leer/IBBY Costa Rica 
+          <p style={{padding:4}}>
+            <h2>Contacto :</h2><br/>
+            Apartado postal:<br/>
+            Asociación Leer/IBBY Costa Rica 
             23-7051  30701 Cartago, Costa Rica <br/>
             https://www.fundacionleer.org <br/>
             +(506) 2438 0914 <br/>
@@ -38,6 +40,7 @@ const SiteFooter = () => (
         </Grid>
       </Grid>
     </div>
+<CompSocialMedia/>
     <SiteLogoLine />
   </div>
 );
