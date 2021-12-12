@@ -16,7 +16,6 @@ const CompSocialMedia = () => {
         style={{
           margin: "auto",
           textAlign: "center",
-          alignItems: "space-between",
         }}
       >
         <IconButton

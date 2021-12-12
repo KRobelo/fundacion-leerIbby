@@ -67,6 +67,7 @@ const SiteHeader = () => {
                 aria-controls="menu-appbar"
                 aria-haspopup="true"
                 color="inherit"
+                href={"/"}
               >
                 <MenuIcon
                   size="large"
@@ -161,7 +162,10 @@ const SiteHeader = () => {
                     "https://www.facebook.com/Fundaci%C3%B3n-Leer-IBBY-Costa-Rica-133173946851807"
                   }
                   target={"_blank"}
-                  sx={{ p: 0 }}
+                  sx={{
+                    p: 0,
+                    display: { xs: "none", md: "none", lg: "none" },
+                  }}
                 >
                   <FacebookIcon /> &nbsp;&nbsp;
                 </IconButton>

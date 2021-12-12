@@ -12,7 +12,7 @@ const SiteContacto = () => {
   return (
     <div className={styles.SiteContacto} data-testid="SiteContacto">
       <CompSubHeader />
-
+      <br />
       <h1 style={{ margin: "auto", textAlign: "center" }}>
         {" "}
         Fundación Leer/IBBY Costa Rica

@@ -28,6 +28,7 @@
     .grid-background{
        //background-image: url("/images/proyectos-BG.png");
        // height: 375px;
+       display: inline-table;
        background-color: #98be19;
         background-position: center;
         
@@ -35,6 +36,7 @@
             color:white;
             max-width: 620px;
             margin:auto;
+            font-size: 14px;
         }
         ul{
             color:white;
@@ -64,6 +66,27 @@
         background-size:$backgroundMobileSize;
         height: 375px;
     }
+      .grid-la-vuelta-al-mundo{
+        background-image: url("/images/proyectos-VualtaAlMundoEn70Mapas.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:$backgroundMobileSize;
+        height: 375px;
+    }
+    .grid-lista-de-honor{
+        background-image: url("/images/proyectos-ListaDeHonor.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:$backgroundMobileSize;
+        height: 375px;
+    }
+    .grid-caminos{
+        background-image: url("/images/proyectos-Caminos.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:$backgroundMobileSize;
+        height: 375px;
+    }
     .round-image-small {
         width: 120px;
         margin-top: -15px;
@@ -85,13 +108,17 @@
    /* Small devices (portrait tablets and large phones, 600px and up) */
    @media only screen and (min-width: 600px) {
     .grid-background{
-        background-image: url("/images/proyectos-BG.png");
+       // background-image: url("/images/proyectos-BG.png");
        // height: 375px;
         background-position: center;
+        display: inline-table;
+        background-color: #98be19;
+        border-bottom: #ffda06 solid 5px;
         p{
             color:white;
             max-width: 620px;
             margin:auto;
+            font-size: 14px;
         }
         ul{
             color:white;
@@ -109,12 +136,35 @@
         background-image: url("/images/proyectos-LibrosVioleta.png");
         background-position: right;
         background-repeat: no-repeat;
+        background-size:$backgroundMobileSize;
         height: 375px;
     }
     .grid-verde-que-te-leo-verde{
         background-image: url("/images/proyectos-VerdeQueteLeoVerde.png");
         background-position: right;
         background-repeat: no-repeat;
+        background-size:$backgroundMobileSize;
+        height: 375px;
+    }
+    .grid-la-vuelta-al-mundo{
+        background-image: url("/images/proyectos-VualtaAlMundoEn70Mapas.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:$backgroundMobileSize;
+        height: 375px;
+    }
+    .grid-lista-de-honor{
+        background-image: url("/images/proyectos-ListaDeHonor.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:$backgroundMobileSize;
+        height: 375px;
+    }
+    .grid-caminos{
+        background-image: url("/images/proyectos-Caminos.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:$backgroundMobileSize;
         height: 375px;
     }
     .round-image-small {
@@ -132,18 +182,25 @@
   
         background-position: bottom;
       }
+
+  
    }
    
    /* Medium devices (landscape tablets, 768px and up) */
    @media only screen and (min-width: 768px) {
     .grid-background{
-        background-image: url("/images/proyectos-BG.png");
+       // background-image: url("/images/proyectos-BG.png");
        // height: 375px;
         background-position: center;
+        display: inline-table;
+        background-color: #98be19;
+        border-top: #ffda06 solid 5px;
+        border-bottom: #ffda06 solid 5px;
         p{
             color:white;
             max-width: 620px;
             margin:auto;
+            font-size: 14px;
         }
         ul{
             color:white;
@@ -152,23 +209,46 @@
     }
     .grid-leemos-en-familia{
         background-image: url("/images/proyectos-LeamosEnFamilia.png");
-        background-position: right;
+        background-position: center;
         background-repeat: no-repeat;
-        background-size:inherit;
+        background-size:475px 375px;
         height: 375px;
     }
     .grid-libros-violeta{
         background-image: url("/images/proyectos-LibrosVioleta.png");
-        background-position: right;
+        background-position: center;
         background-repeat: no-repeat;
-        background-size:inherit;
+        background-size:475px 375px;
         height: 375px;
     }
     .grid-verde-que-te-leo-verde{
         background-image: url("/images/proyectos-VerdeQueteLeoVerde.png");
-        background-position: right;
+        background-position: center;
         background-repeat: no-repeat;
-        background-size:inherit;
+        background-size:475px 375px;
+        height: 375px;
+    }
+      .grid-la-vuelta-al-mundo{
+        background-image: url("/images/proyectos-VualtaAlMundoEn70Mapas.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:475px 375px;
+        height: 375px;
+    }
+    .grid-lista-de-honor{
+        background-image: url("/images/proyectos-ListaDeHonor.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:475px 375px;
+
+        margin: auto;
+        height: 375px;
+    }
+    .grid-caminos{
+        background-image: url("/images/proyectos-Caminos.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:475px 375px;
         height: 375px;
     }
    }
@@ -176,16 +256,20 @@
    /* Large devices (laptops/desktops, 992px and up) */
    @media only screen and (min-width: 992px) {
     .grid-background{
-        background-image: url("/images/proyectos-BG.png");
+        background-color: #98be19;
+        border-bottom: #ffda06 solid 5px;
        // height: 375px;
         background-position: center;
+        display: inline-table;
         p{
             color:white;
-            max-width: 620px;
+            max-width: 680px;
             margin:auto;
+            font-size: 14px;
         }
         ul{
             color:white;
+            font-size: 12px;
         }
 
     } 
@@ -193,18 +277,48 @@
         background-image: url("/images/proyectos-LeamosEnFamilia.png");
         background-position: right;
         background-repeat: no-repeat;
+        background-size:475px 384px;
         height: 375px;
     }
     .grid-libros-violeta{
         background-image: url("/images/proyectos-LibrosVioleta.png");
         background-position: right;
         background-repeat: no-repeat;
+        background-size:475px 384px;
         height: 375px;
     }
     .grid-verde-que-te-leo-verde{
         background-image: url("/images/proyectos-VerdeQueteLeoVerde.png");
         background-position: right;
         background-repeat: no-repeat;
+        background-size:475px 384px;
+
+        height: 375px;
+    }
+    .grid-la-vuelta-al-mundo{
+        background-image: url("/images/proyectos-VualtaAlMundoEn70Mapas.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:inherit;
+        background-size:475px 384px;
+
+        height: 375px;
+    }
+    
+    .grid-lista-de-honor{
+        background-image: url("/images/proyectos-ListaDeHonor.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:475px 384px;
+
+
+        height: 375px;
+    }
+    .grid-caminos{
+        background-image: url("/images/proyectos-Caminos.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:475px 384px;
         height: 375px;
     }
    }
@@ -215,13 +329,16 @@
         background-image: url("/images/proyectos-BG.png");
         height: 375px;
         background-position: center;
+        display: inline-table;
         p{
             color:white;
-            max-width: 620px;
+            max-width: 724px;
             margin:auto;
+            font-size: 16px;
         }
         ul{
             color:white;
+            font-size: smaller;
         }
 
     }     
@@ -241,6 +358,27 @@
     }
     .grid-verde-que-te-leo-verde{
         background-image: url("/images/proyectos-VerdeQueteLeoVerde.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:inherit;
+        height: 375px;
+    }
+    .grid-la-vuelta-al-mundo{
+        background-image: url("/images/proyectos-VualtaAlMundoEn70Mapas.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:inherit;
+        height: 375px;
+    }
+    .grid-lista-de-honor{
+        background-image: url("/images/proyectos-ListaDeHonor.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:inherit;
+        height: 375px;
+    }
+    .grid-caminos{
+        background-image: url("/images/proyectos-Caminos.png");
         background-position: right;
         background-repeat: no-repeat;
         background-size:inherit;

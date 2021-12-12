@@ -8,8 +8,7 @@ export default function SiteQuienesSomos() {
   return (
     <div className={styles.SiteQuienesSomos}>
       <CompSubHeader />
-      <br />
-      <br />
+
       <Box sx={{ flexGrow: 1 }}>
         <div
           style={{
@@ -30,23 +29,19 @@ export default function SiteQuienesSomos() {
             creación de comunidades lectoras a través de mediadores capacitados
             y actividades lúdicas, en espacios de diálogo.
           </p>
-          <br></br>
+          <br />
           <p className={styles["position-p"]}>
             Concebimos la lectura como un bien social al que la niñez y en la
             juventud tenga acceso para su formación y gozo, con el fin de
             contribuir al desarrollo de personas libres y reflexivas que
             participen en la construcción de una sociedad más justa.
           </p>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
         </div>
 
         <br />
       </Box>
       <div id="graybar" className={styles["gray-bar-que-hacemos"]}>
-        <Grid container spacing={2}>
+        <Grid style={{ maxWidth: 1200, margin: "auto" }} container spacing={2}>
           <Grid
             item
             xs={12}

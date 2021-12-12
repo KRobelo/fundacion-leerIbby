@@ -96,7 +96,7 @@ export default function SiteMain() {
             container
             spacing={0}
           >
-            <Grid item xs={12} md={6} lg={6}>
+            <Grid item xs={12} md={6} lg={6} sx={{ order: { xs: 2, lg: 1 } }}>
               <div className={styles["grid-home"]}>
                 <h1 style={{ color: "white" }}>¿Qué Hacemos?</h1>
                 <p>
@@ -121,6 +121,7 @@ export default function SiteMain() {
                 margin: "auto",
                 textAlign: "center",
               }}
+              sx={{ order: { xs: 1, lg: 2 } }}
             >
               <img
                 src="/images/quehacemos.png"
@@ -161,7 +162,7 @@ export default function SiteMain() {
             margin: "auto",
             textAlign: "center",
           }}
-          onClick={(e) => router.push("/proyectoss")}
+          onClick={(e) => router.push("/proyectos")}
         >
           <img
             style={{ margin: "auto" }}
