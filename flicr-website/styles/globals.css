@@ -18,13 +18,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Cabin";
-  color: #009bdb;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #0088c0;
   text-transform: uppercase;
 }
 a {
   color: inherit;
   text-decoration: none;
+}
+a:hover {
+  color: inherit;
+  text-decoration: underline;
 }
 span {
   font-family: "Cabin";
@@ -38,7 +42,7 @@ span {
     font-family: "Cabin";
     text-align: justify;
     font-size: 16px;
-   color: #c0bebe;
+   color: #585555;
     padding: 8px;
   }
 }
@@ -49,7 +53,7 @@ span {
     font-family: "Cabin";
     text-align: justify;
     font-size: 16px;
-   color: #c0bebe;
+   color: #585555;
     padding: 8px;
   }
 }
@@ -60,7 +64,7 @@ span {
     font-family: "Cabin";
     text-align: justify;
     font-size: 16px;
-   color: #c0bebe;
+   color: #585555;
     padding: 8px;
   }
 }
@@ -71,7 +75,7 @@ span {
     font-family: "Cabin";
     text-align: justify;
     font-size: 16px;
-   color: #c0bebe;
+   color: #585555;
     padding: 8px;
   }
 }
@@ -79,10 +83,10 @@ span {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   p {
-    font-family: "Cabin";
+    font-family: "Arial";
     text-align: justify;
-    font-size: 16px;
-   color: #c0bebe;
+    font-size: 18px;
+   color: #585555;
     padding: 8px;
   }
 }

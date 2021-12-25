@@ -20,14 +20,35 @@ const SiteFooter = () => (
           <br></br>
           <p style={{ padding: 8 }}>
             Somos una organización sin fines de lucro dedicada a promover la
-            lectura en niños y jóvenes mediante diversas actividades sociales.
-            Les Invitamos a formar parte de nuestra comunidad participando y
-            corriendo la voz.
+            lectura en la niñez y juventud mediante diversas actividades
+            sociales. Les Invitamos a formar parte de nuestra comunidad
+            participando y corriendo la voz.
           </p>
         </Grid>
         <Grid item xs={12} md={4} lg={4}>
+          <h2>Recursos</h2>
           <p style={{ padding: 8 }}>
-            <h2>Contacto :</h2>
+            <a
+              href="http://fundacionleer.org/aulavirtual/"
+              className={styles["email"]}
+              target={`_blank`}
+            >
+              Aula Virtual
+            </a>
+            <br /> <br />
+            <a
+              href="http://fundacionleer.org/aulavirtual/"
+              className={styles["email"]}
+              target={`_blank`}
+            >
+              Publicaciones
+            </a>
+          </p>
+          <p style={{ padding: 8 }}></p>
+        </Grid>
+        <Grid item xs={12} md={4} lg={4} style={{ padding: 8 }}>
+          <h2>Contacto :</h2>
+          <p style={{ padding: 8 }}>
             <br />
             Apartado postal:
             <br />
@@ -37,10 +58,6 @@ const SiteFooter = () => (
             +(506) 2438 0914 <br />
             contacto@fundacionleer.org
           </p>
-        </Grid>
-        <Grid item xs={12} md={4} lg={4} style={{ padding: 8 }}>
-          <h1>© 2021 Fundación Leer/IBBY CR. </h1>
-          <h3>Fundacionleer.org</h3>
         </Grid>
         <Grid
           item

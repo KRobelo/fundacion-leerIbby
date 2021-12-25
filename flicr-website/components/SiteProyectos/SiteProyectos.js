@@ -156,10 +156,15 @@ const SiteProyectos = () => (
           lg={4}
         ></Grid>
         <Grid item className={styles["grid-background"]} xs={12} md={8} lg={8}>
-          <div style={{ display: "table-cell", verticalAlign: "middle" }}>
+          <div
+            style={{
+              display: "table-cell",
+              verticalAlign: "middle",
+            }}
+          >
             <h1>Los libros violetas</h1>
 
-            <p>
+            <p style={{ fontSize: 14, fontWeight: "bold" }}>
               Los cuentos y relatos son una fuente inagotable para la
               imaginación y la creación, y a partir de ellos los niños y niñas
               se acercan a nuevas formas de ver y entender el mundo y de crear

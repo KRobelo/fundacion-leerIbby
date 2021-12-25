@@ -326,7 +326,7 @@
    /* Extra large devices (large laptops and desktops, 1200px and up) */
    @media only screen and (min-width: 1200px) {
     .grid-background{
-        background-image: url("/images/proyectos-BG.png");
+      //  background-image: url("/images/proyectos-BG.png");
         height: 375px;
         background-position: center;
         display: inline-table;
@@ -334,7 +334,7 @@
             color:white;
             max-width: 724px;
             margin:auto;
-            font-size: 16px;
+            font-size: 18px;
         }
         ul{
             color:white;

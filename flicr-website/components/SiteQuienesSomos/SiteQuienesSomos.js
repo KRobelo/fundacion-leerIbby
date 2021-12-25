@@ -12,7 +12,7 @@ export default function SiteQuienesSomos() {
       <Box sx={{ flexGrow: 1 }}>
         <div
           style={{
-            maxWidth: 650,
+            maxWidth: 1080,
             margin: "0px auto",
             color: "#222",
           }}

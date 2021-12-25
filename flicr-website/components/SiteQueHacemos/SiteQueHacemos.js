@@ -11,7 +11,7 @@ export default function SiteQueHacemos() {
       <Box sx={{ flexGrow: 1 }}>
         <div
           style={{
-            maxWidth: 650,
+            maxWidth: 1080,
             margin: "auto",
             color: "#222",
           }}

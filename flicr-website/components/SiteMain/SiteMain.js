@@ -47,7 +47,6 @@ export default function SiteMain() {
           </Grid>
         </Grid>
 
-        <SiteLogoLine />
         <br />
 
         <div className={styles["bg-row"]}>
@@ -151,7 +150,7 @@ export default function SiteMain() {
 
         <div id="graybar" className={styles["bg-row-small"]}>
           <h3>
-            Mas de 250 Centros Educativos Púbilcos y Privados Beneficiados
+            Más de 250 Centros Educativos Púbilcos y Privados Beneficiados
             alrededor del país.
           </h3>
         </div>

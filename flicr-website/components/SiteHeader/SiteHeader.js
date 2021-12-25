@@ -26,6 +26,10 @@ const pagesObj = [
   { text: "Inicio", url: "/" },
   { text: "¿Quiénes Somos?", url: "/quienes-somos" },
   { text: "¿Qué Hacemos?", url: "/que-hacemos" },
+  {
+    text: "Aula Virtual",
+    url: "http://fundacionleer.org/aulavirtual/",
+  },
 
   { text: "Dona / Contacto", url: "/contacto" },
   { text: "Proyectos", url: "/proyectos" },
@@ -219,28 +223,6 @@ const SiteHeader = () => {
         </Container>
       </AppBar>
 
-      <div id="graybar" className={styles["gray-bar-header"]}>
-        <LocationOnIcon /> <span> Cartago, Costa Rica </span>
-        &nbsp;&nbsp; &nbsp;&nbsp;
-        <a
-          style={{ display: "inline-block" }}
-          href="mailto:fundacionleercostarica@gmail.com"
-          target="_blank"
-          without={true}
-          rel="noreferrer"
-        >
-          <EmailIcon /> <span>fundacionleercostarica@gmail.com </span>
-        </a>{" "}
-        &nbsp;&nbsp; &nbsp;&nbsp;
-        <a
-          href="https://api.whatsapp.com/send?phone=50683126746"
-          target="_blank"
-          without={true}
-          rel="noreferrer"
-        >
-          <WhatsAppIcon /> <span>83126746</span>
-        </a>
-      </div>
       <CompSocialMedia />
     </div>
   );
